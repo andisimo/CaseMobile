@@ -1,0 +1,358 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Published Application by AppMagic</title>
+
+<script type="text/javascript">
+    window.appInsights={queue:[],applicationInsightsId:null,accountId:null,appUserId:null,configUrl:null,start:function(n){function u(n,t){n[t]=function(){var i=arguments;n.queue.push(function(){n[t].apply(n,i)})}}function f(n){var t=document.createElement("script");return t.type="text/javascript",t.src=n,t.async=!0,t}function r(){i.appendChild(f("js/ai.0.js"))}var i,t;this.applicationInsightsId=n;u(this,"logEvent");u(this,"logPageView");i=document.getElementsByTagName("script")[0].parentNode;this.configUrl===null?r():(t=f(this.configUrl),t.onload=r,t.onerror=r,i.appendChild(t));this.start=function(){}}};
+    appInsights.start("a323e34d-0c36-4466-87ef-a3635eec5b76");
+    appInsights.logEvent("Launch", {DocumentID: "5818ac6e-1dfb-44d4-9404-f5329b8690b1", DocumentVersionID: "e61edbc4-21c0-4ac2-8726-837b4fea8cda", Type: "Local"});
+</script>
+
+    <script id="begin-service-json"></script>
+    
+
+    <script id="end-service-json"></script>
+    <link href="//Microsoft.WinJS.2.0/css/ui-dark.css" rel="stylesheet">
+<script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+<script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+<script src="/openSource/unmodified/sax/sax.js"></script>
+<script src="/openSource/unmodified/caja/html-sanitizer.js"></script>
+<script src="/openSource/unmodified/jszip/jszip.js"></script>
+<script src="/openSource/unmodified/jszip/jszip-deflate.js"></script>
+<script src="/openSource/unmodified/jszip/jszip-inflate.js"></script>
+<script src="/openSource/unmodified/jszip/jszip-load.js"></script>
+<script src="/openSource/unmodified/sugarjs/sugar-1.4.1.js"></script>
+<script src="/js/extends.js"></script>
+<link href="/css/default.css" rel="stylesheet">
+<link href="/css/canvas.css" rel="stylesheet">
+<script src="/js/knockout-3.2.0.js"></script>
+<script src="/js/common/constants.js"></script>
+<script src="/js/canvas.js"></script>
+<script src="/js/screen.js"></script>
+<script src="/js/utility.js"></script>
+<script src="/js/converters.js"></script>
+<script src="/js/promiseQueue.js"></script>
+<script src="/js/Core.js"></script>
+<script src="/js/Core.Knockout.js"></script>
+<script src="/js/AppMagic.Common.js"></script>
+<script src="/js/AppMagic.UI.js"></script>
+<script src="/js/AppMagic.Services.js"></script>
+<script src="/js/AppMagic.Controls.js"></script>
+<script src="/js/dialog.js"></script>
+<script src="/js/xml.js"></script>
+<script src="/js/AppMagic.Common.Windows.js"></script>
+<script src="/js/cssRuleUtility.js"></script>
+<script src="/js/dialog.js"></script>
+<script src="/js/globalization.js"></script>
+<script src="/js/dialogButtonViewModel.js"></script>
+<script src="/js/notificationViewModel.js"></script>
+<script src="/js/progressIndicatorViewModel.js"></script>
+<script src="/js/impexWorkerController.js"></script>
+<script src="/js/RESTWorkerController.js"></script>
+<script src="/js/AppMagic.PublishedApp.Common.js"></script>
+<script src="/js/AppMagic.PublishedApp.Windows.js"></script>
+<script src="/js/runtimebase.js"></script>
+<script src="/js/domUtility.js"></script>
+<script src="/js/runtime.js"></script>
+<script src="/js/aggregateFunctions.js"></script>
+<script src="/js/behaviorFunctions.js"></script>
+<script src="/js/collectionFunctions.js"></script>
+<script src="/js/dateTimeFunctions.js"></script>
+<script src="/js/informationFunctions.js"></script>
+<script src="/js/mathFunctions.js"></script>
+<script src="/js/membershipFunctions.js"></script>
+<script src="/js/screenFunctions.js"></script>
+<script src="/js/sharedFunctions.js"></script>
+<script src="/js/solverFunctions.js"></script>
+<script src="/js/textFunctions.js"></script>
+<script src="/js/uiUtility.js"></script>
+<script src="/js/common/platformHelpers.js"></script>
+<script src="/js/inlineEditText.js"></script>
+<script src="/js/requirementsManager.js"></script>
+<script src="/js/animation.js"></script>
+<script src="/js/controlManager.js"></script>
+<script src="/js/modelValueConstrainers.js"></script>
+<script src="/js/visualIntellisenseConstants.js"></script>
+<script src="/services/utility.js"></script>
+<script src="/services/results.js"></script>
+<script src="/js/ruleValueEditor.js"></script>
+<script src="/js/ruleValue.js"></script>
+<script src="/js/init.js"></script>
+
+
+    <link href="controls\common\dialog\authDialogBody.css" rel="stylesheet">
+<script src="controls\common\dialog\authDialogBody.js"></script>
+
+<script id="/controls/common/dialog/authDialogBody.html" type="text/html">
+<div class="auth-dialog-container">
+  <div class="auth-dialog-header-container">
+    <div class="auth-dialog-header">
+      <div class="backButton" data-bind="click: onClickCancel, text: AppMagic.AuthoringTool.SegoeGlyphs.back"></div>
+      <div class="title-container">
+        <div class="title" data-bind="text: AppMagic.Strings.AuthenticationDialogTitleLabelText"></div>
+      </div>
+      <div class="button-container">
+        <button class="auth-button" data-bind="text: AppMagic.Strings.Cancel, click: onClickCancel"></button>
+      </div>
+    </div>
+  </div>
+  <div class="auth-dialog-body">
+    <progress class="win-ring spinner" data-bind="visible: !hasLoaded"></progress>
+    <x-ms-webview class="auth-webview" data-bind="css: { hidden: !hasLoaded }"></x-ms-webview>
+  </div>
+</div>
+
+</script>
+<link href="controls\common\dialog\dialog.css" rel="stylesheet">
+
+<script id="/controls/common/dialog/dialog.html" type="text/html">
+<div class="dialog-background" data-bind="shortcut: { provider: shortcutsProvider }, style: { zIndex: AppMagic.Constants.zIndex.topmost }">
+  <!-- This is the dialog "band" that displays on the foreground, containing the buttons and contents -->
+  <div class="dialog" data-bind="css: { fullscreen: fullScreen, overlay: !fullScreen }">
+    <div class="content"></div>
+    <div class="button-strip" data-bind="foreach: buttons">
+      <button data-bind="disable: !isEnabled, text: title, event: { keydown: onButtonKeyDown, click: onButtonClick }" data-appmagic-initialfocus="true" tabindex="0"></button>
+    </div>
+  </div>
+</div>
+
+</script>
+<link href="controls\common\dialog\messageDialogBody.css" rel="stylesheet">
+<script src="controls\common\dialog\messageDialogBody.js"></script>
+
+<script id="/controls/common/dialog/messageDialogBody.html" type="text/html">
+<div class="message-dialog">
+  <div class="title" data-bind="text: title"></div>
+  <img class="errorIcon" src="/images/warning_sign.svg" data-bind="visible: showWarningIcon" />
+  <div class="description" data-bind="text: description"></div>
+</div>
+
+</script>
+<link href="controls\common\dialog\waitDialogBody.css" rel="stylesheet">
+<script src="controls\common\dialog\waitDialogBody.js"></script>
+
+<script id="/controls/common/dialog/waitDialogBody.html" type="text/html">
+<div class="waitProgressDialogBody">
+  <progress class="win-ring waitProgressRing"></progress>
+  <div class="waitProgressDialogText" data-bind="text: text"></div>
+</div>
+
+</script>
+<link href="controls\common\notification\notification.css" rel="stylesheet">
+<script src="controls\common\notification\notification.js"></script>
+
+<script id="/controls/common/notification/notification.html" type="text/html">
+<div id="notification" class="fragment" data-bind="visible: pageViewModel">
+  <div class="notification-control" data-bind="             property: { viewModel: pageViewModel },             winjsControl: pageViewModel ? pageViewModel.url : ''"></div>
+</div>
+
+</script>
+<link href="controls\common\seekBar\css/seekBar.css" rel="stylesheet">
+<script src="controls\common\seekBar\js/seekBar.js"></script>
+
+<script id="/controls/common/seekBar/seekBar.html" type="text/html">
+<div class="appmagic-seekbar-container-body" touch-action="none">
+  <div class="appmagic-seekbar-container">
+    <div class="appmagic-seekbar-track">
+      <div class="appmagic-seekbar-fill" data-bind="style: { width: seekBarFillWidth }"></div>
+    </div>
+    <div class="appmagic-seekbar-scroller-thumb" data-bind="style: { width: seekBarFillWidth }">
+      <img class="appmagic-seekbar-thumb" src="#" data-bind="attr: { src: seekBarThumbSrc }" />
+    </div>
+  </div>
+</div>
+
+</script>
+<link href="controls\common\progressIndicator\progressIndicator.css" rel="stylesheet">
+<script src="controls\common\progressIndicator\progressIndicator.js"></script>
+
+<script id="/controls/common/progressIndicator/progressIndicator.html" type="text/html">
+<div class="progress-indicator" data-bind="visible: numberOfActionsInProgress &gt; 0, style: { zIndex: AppMagic.Constants.zIndex.topmost }">
+  <progress class="progress-bar"></progress>
+</div>
+
+</script>
+
+<script type="text/html" id="appmagic-template-galleryitem-container">
+  <div class="appmagic-gallery-template-container" data-bind="               css: {                 'appmagic-gallery-template-container-allow-pop-push': !nestedTemplateSelected               },               style: {                 width: _templateWidth,                 height: _templateHeight,                 marginLeft: _templateContainerMarginLeft,                 marginRight: _templateContainerMarginRight,                 marginTop: _templateContainerMarginTop             }"></div>
+</script>
+
+<script type="text/html" id="appmagic-template-gallery-authoringbuttons">
+  <!--
+            zIndex for these buttons needs to be the same as zIndex for nested controlContainer, 
+            otherwise the button may be hidden under the gallery's controls 
+        -->
+  <div class="controlAuthoringButtons appmagic-gallery-authoringbuttons" data-bind="                 visible: (nestedTemplate.parentVisualSelected) && !isPublishOrPreview,                 style: { zIndex: AppMagic.Constants.zIndex.topmost + 1 }">
+    <div class="button" data-bind="css: { active: nestedTemplate.selected }">
+      <div class="frame addVisualButton" data-bind="{ click: onClickEditTemplateButton,                     attr: { title: AppMagic.AuthoringStrings.EditGalleryTooltip } }" />
+    </div>
+  </div>
+</script>
+<link href="controls\common\ruleValueEditor\ruleValueEditor.css" rel="stylesheet">
+<script src="controls\common\ruleValueEditor\ruleValueEditor.js"></script>
+
+<script type="text/html" id="colorTemplate">
+  <div class="colorDiv" data-bind="style: { backgroundColor: value.toCss(), backgroundImage: 'url(' + image + ')' },                                              click: $parents[1].handleColorClick.bind($parents[1], value, $element.parentNode.index, $index()), clickBubble: false,                                              css: { selected: $parents[1].normalizedValue.equals(value) },                                              focusElement: $element.parentNode.index === $parents[1].selectedRow && $index() === $parents[1].selectedColumn,                                              event: {                                                  keyup: $parents[1].handleColorKeyDown.bind($parents[1], value),                                                   blur: $parents[1].handleColorBlur.bind($parents[1]),                                              }" tabindex="0"></div>
+</script>
+<script id="/controls/common/ruleValueEditor/ruleValueEditor.html" type="text/html">
+<div class="visualIntellisense" data-bind="with: $data">
+  <!-- ko with: getPresentationValueForTemplate('fontWeight') -->
+  <div class="container" data-bind="foreach: AppMagic.AuthoringTool.VisualIntellisense.TopFontWeights, focusRoot: selectedIndex">
+    <div class="textItem" data-bind="text: displayText,                                              clickOrEnter: $parent.handleClick.bind($parent, text, $index()), clickBubble: false,                                              css: { selected: $parent.normalizedValue === displayText || $parent.normalizedValue === text },                                              style: { fontWeight: ruleValue },                                              focusElement: $index(),                                              event: { keydown: $parent.handleKeyDown.bind($parent, AppMagic.AuthoringTool.VisualIntellisense.TopFontWeights, true), blur: $parent.handleBlur.bind($parent) }" tabindex="0"></div>
+  </div>
+  <!-- /ko -->
+  <!-- ko with: getPresentationValueForTemplate('boolean') -->
+  <div class="container" data-bind="foreach: AppMagic.AuthoringTool.VisualIntellisense.BooleanValues, focusRoot: selectedIndex">
+    <div class="textItem" data-bind="text: displayText,                                              clickOrEnter: $parent.handleClick.bind($parent, text, $index()), clickBubble: false,                                              css: { selected: $parent.normalizedValue === text },                                              focusElement: $index(),                                              event: { keydown: $parent.handleKeyDown.bind($parent, AppMagic.AuthoringTool.VisualIntellisense.BooleanValues, true), blur: $parent.handleBlur.bind($parent) }" tabindex="0"></div>
+  </div>
+  <!-- /ko -->
+  <!-- ko with: getPresentationValueForTemplate('fontFamily') -->
+  <div class="container scroll" data-bind="foreach: values, focusRoot: selectedIndex">
+    <div class="textItem" data-bind="text: displayText,                                              clickOrEnter: $parent.handleClick.bind($parent, text, $index()), clickBubble: false,                                              css: { selected: $parent.normalizedValue === displayText || $parent.normalizedValue === text },                                              style: { fontFamily: ruleValue + ', Segoe UI' },                                              focusElement: $index(),                                              event: { keydown: $parent.handleKeyDown.bind($parent, $parent.values, true), blur: $parent.handleBlur.bind($parent) }" tabindex="0"></div>
+  </div>
+  <!-- /ko -->
+  <!-- ko with: getPresentationValueForTemplate('range') -->
+  <div class="container center">
+    <input class="valueSlider" type="range" data-bind="attr: { min: rangeMin, max: rangeMax }, value: rangeValue, clickBubble: false,                                                                event: { mousedown: handleRangeMouseDown.bind($parent), mouseup: handleRangeMouseUp.bind($parent) }" />
+    <div class="valueTextBoxContainer">
+      <input class="valueTextBox" type="text" maxlength="4" data-bind="value: textBoxValue, valueUpdate: 'keyup', disable: disabled, clickBubble: false" />
+    </div>
+  </div>
+  <!-- /ko -->
+  <!-- ko with: getPresentationValueForTemplate('imagePosition') -->
+  <div class="container scroll" data-bind="foreach: AppMagic.AuthoringTool.VisualIntellisense.ImagePositionStyles, focusRoot: selectedIndex">
+    <div class="imageTextItem" data-bind="clickOrEnter: $parent.handleClick.bind($parent, text, $index()), clickBubble: false,                                                   css: { selected: $parent.normalizedValue === displayText || $parent.normalizedValue === text },                                                   focusElement: $index(),                                                   event: { keydown: $parent.handleKeyDown.bind($parent, AppMagic.AuthoringTool.VisualIntellisense.ImagePositionStyles, true), blur: $parent.handleBlur.bind($parent) }" tabindex="0">
+      <img data-bind="attr: { src: image }" />
+      <div data-bind="text: displayText"></div>
+    </div>
+  </div>
+  <!-- /ko -->
+  <!-- ko with: getPresentationValueForTemplate('transition') -->
+  <div class="container" data-bind="foreach: AppMagic.AuthoringTool.VisualIntellisense.Transitions, focusRoot: selectedIndex">
+    <div class="imageTextItem" data-bind="clickOrEnter: $parent.handleClick.bind($parent, text, $index()), clickBubble: false,                                                   css: { selected: $parent.normalizedValue === displayText || $parent.normalizedValue === text },                                                   focusElement: $index(),                                                   event: { keydown: $parent.handleKeyDown.bind($parent, AppMagic.AuthoringTool.VisualIntellisense.Transitions, true), blur: $parent.handleBlur.bind($parent) }" tabindex="0">
+      <img data-bind="attr: { src: image }" />
+      <div data-bind="text: displayText"></div>
+    </div>
+  </div>
+  <!-- /ko -->
+  <!-- ko with: getPresentationValueForTemplate('layout') -->
+  <div class="container" data-bind="foreach: AppMagic.AuthoringTool.VisualIntellisense.Layouts, focusRoot: selectedIndex">
+    <div class="textItem" data-bind="text: displayText,                                              clickOrEnter: $parent.handleClick.bind($parent, text, $index()), clickBubble: false,                                              css: { selected: $parent.normalizedValue === displayText || $parent.normalizedValue === text },                                              focusElement: $index(),                                              event: { keydown: $parent.handleKeyDown.bind($parent, AppMagic.AuthoringTool.VisualIntellisense.Layouts, true), blur: $parent.handleBlur. bind($parent) }" tabindex="0"></div>
+  </div>
+  <!-- /ko -->
+  <!-- ko with: getPresentationValueForTemplate('themes') -->
+  <div class="container scroll" data-bind="foreach: AppMagic.AuthoringTool.VisualIntellisense.Themes, focusRoot: selectedIndex">
+    <div class="textItem" data-bind="text: displayText,                                              clickOrEnter: $parent.handleClick.bind($parent, text, $index()), clickBubble: false,                                              css: { selected: $parent.normalizedValue === displayText || $parent.normalizedValue === text },                                              focusElement: $index(),                                              event: { keydown: $parent.handleKeyDown.bind($parent, AppMagic.AuthoringTool.VisualIntellisense.Themes, true), blur: $parent.handleBlur. bind($parent) }" tabindex="0"></div>
+  </div>
+  <!-- /ko -->
+  <!-- ko with: getPresentationValueForTemplate('textMode') -->
+  <div class="container" data-bind="foreach: AppMagic.AuthoringTool.VisualIntellisense.TextModes, focusRoot: selectedIndex">
+    <div class="textItem" data-bind="text: displayText,                                             clickOrEnter: $parent.handleClick.bind($parent, text, $index()), clickBubble: false,                                             css: { selected: $parent.normalizedValue === displayText || $parent.normalizedValue === text },                                             style: { fontWeight: ruleValue },                                             focusElement: $index(),                                             event: { keydown: $parent.handleKeyDown.bind($parent, AppMagic.AuthoringTool.VisualIntellisense.TextModes, true), blur: $parent.handleBlur.bind($parent) }" tabindex="0"></div>
+  </div>
+  <!-- /ko -->
+  <!-- ko with: getPresentationValueForTemplate('direction') -->
+  <div class="container" data-bind="foreach: AppMagic.AuthoringTool.VisualIntellisense.Directions, focusRoot: selectedIndex">
+    <div class="textItem" data-bind="text: displayText,                                              clickOrEnter: $parent.handleClick.bind($parent, text, $index()), clickBubble: false,                                              css: { selected: $parent.normalizedValue === displayText || $parent.normalizedValue === text },                                              focusElement: $index(),                                              event: { keydown: $parent.handleKeyDown.bind($parent, AppMagic.AuthoringTool.VisualIntellisense.Directions, true), blur: $parent.handleBlur.bind($parent) }" tabindex="0"></div>
+  </div>
+  <!-- /ko -->
+  <!-- ko with: getPresentationValueForTemplate('penMode') -->
+  <div class="container" data-bind="foreach: AppMagic.AuthoringTool.VisualIntellisense.PenModes, focusRoot: selectedIndex">
+    <div class="imageTextItem pen" data-bind="clickOrEnter: $parent.handleClick.bind($parent, text, $index()), clickBubble: false,                                                       css: { selected: $parent.normalizedValue === displayText || $parent.normalizedValue === text },                                                       focusElement: $index(),                                                       event: { keydown: $parent.handleKeyDown.bind($parent, AppMagic.AuthoringTool.VisualIntellisense.PenModes, true), blur: $parent.handleBlur.bind($parent) }" tabindex="0">
+      <img data-bind="attr: { src: image }" />
+      <div data-bind="text: displayText"></div>
+    </div>
+  </div>
+  <!-- /ko -->
+  <!-- ko with: getPresentationValueForTemplate('penModeInvariant') -->
+  <div class="container" data-bind="foreach: AppMagic.AuthoringTool.VisualIntellisense.PenModesInvariant, focusRoot: selectedIndex">
+    <div class="imageTextItem pen" data-bind="clickOrEnter: $parent.handleClick.bind($parent, text, $index()), clickBubble: false,                                                       css: { selected: $parent.normalizedValue === displayText || $parent.normalizedValue === text },                                                       focusElement: $index(),                                                       event: { keydown: $parent.handleKeyDown.bind($parent, AppMagic.AuthoringTool.VisualIntellisense.PenModesInvariant, true), blur: $parent.handleBlur.bind($parent) }" tabindex="0">
+      <img data-bind="attr: { src: image }" />
+      <div data-bind="text: displayText"></div>
+    </div>
+  </div>
+  <!-- /ko -->
+  <!-- ko with: getPresentationValueForTemplate('penType') -->
+  <div class="container" data-bind="foreach: AppMagic.AuthoringTool.VisualIntellisense.PenTypes">
+    <div class="checkboxTextItem">
+      <input type="checkbox" data-bind="attr: { value: ruleValue }, checked: $parent.typeList" />
+      <div data-bind="text: displayText"></div>
+    </div>
+  </div>
+  <!-- /ko -->
+  <!-- ko with: getPresentationValueForTemplate('textAlign') -->
+  <div class="container imageList" data-bind="foreach: AppMagic.AuthoringTool.VisualIntellisense.TextAlignments, focusRoot: selectedIndex">
+    <div class="imageItem" data-bind="clickOrEnter: $parent.handleClick.bind($parent, text, $index()), clickBubble: false,                                               css: { selected: $parent.normalizedValue === displayText || $parent.normalizedValue === text },                                               style: { backgroundImage: 'url(' + image + ')' },                                               focusElement: $index(),                                               event: { keydown: $parent.handleKeyDown.bind($parent, AppMagic.AuthoringTool.VisualIntellisense.TextAlignments, false), blur: $parent.handleBlur.bind($parent) }" tabindex="0"></div>
+  </div>
+  <!-- /ko -->
+  <!-- ko with: getPresentationValueForTemplate('verticalAlign') -->
+  <div class="container imageList" data-bind="foreach: AppMagic.AuthoringTool.VisualIntellisense.VerticalAlignments, focusRoot: selectedIndex">
+    <div class="imageItem" data-bind="clickOrEnter: $parent.handleClick.bind($parent, text, $index()), clickBubble: false,                                             css: { selected: $parent.normalizedValue === displayText || $parent.normalizedValue === text },                                             style: { backgroundImage: 'url(' + image + ')' },                                               focusElement: $index(),                                             event: { keydown: $parent.handleKeyDown.bind($parent, AppMagic.AuthoringTool.VisualIntellisense.VerticalAlignments, false), blur: $parent.handleBlur.bind($parent) }" tabindex="0"></div>
+  </div>
+  <!-- /ko -->
+  <!-- ko with: getPresentationValueForTemplate('borderStyle') -->
+  <div class="container imageList" data-bind="foreach: AppMagic.AuthoringTool.VisualIntellisense.TopBorderStyles, focusRoot: selectedIndex">
+    <div class="imageItem" data-bind="clickOrEnter: $parent.handleClick.bind($parent, text, $index()), clickBubble: false,                                               css: { selected: $parent.normalizedValue === displayText || $parent.normalizedValue === text },                                               style: { backgroundImage: 'url(' + image + ')', borderStyle: ruleValue, borderWidth: '1px', boxSizing: 'border-box' },                                               focusElement: $index(),                                               event: { keydown: $parent.handleKeyDown.bind($parent, AppMagic.AuthoringTool.VisualIntellisense.TopBorderStyles, false), blur: $parent.handleBlur.bind($parent) }" tabindex="0"></div>
+  </div>
+  <!-- /ko -->
+  <!-- ko with: getPresentationValueForTemplate('overflow') -->
+  <div class="container" data-bind="foreach: AppMagic.AuthoringTool.VisualIntellisense.Overflows, focusRoot: selectedIndex">
+    <div class="textItem" data-bind="text: displayText,                                              clickOrEnter: $parent.handleClick.bind($parent, text, $index()), clickBubble: false,                                              css: { selected: $parent.normalizedValue === displayText || $parent.normalizedValue === text },                                              focusElement: $index(),                                              event: { keydown: $parent.handleKeyDown.bind($parent, AppMagic.AuthoringTool.VisualIntellisense.Overflows, true), blur: $parent.handleBlur. bind($parent) }" tabindex="0"></div>
+  </div>
+  <!-- /ko -->
+  <!-- ko with: getPresentationValueForTemplate('color') -->
+  <div class="colorsContainer">
+    <div class="colorsDiv" data-bind="foreach: preDefinedColors, focusRoot: true" tabindex="0">
+      <div class="colorRow" data-bind="property: { index: $index() }, template: { name: 'colorTemplate', foreach: $data }"></div>
+    </div>
+    <!-- Bind to an array with 1 item since recentlyUsedColors forms only 1 row of colors. -->
+    <div class="recentlyUsedContainer" data-bind="foreach: [recentlyUsedColors]">
+      <div class="colorRow" data-bind="property: { index: AppMagic.AuthoringTool.VisualIntellisense.ColorMruIndex }, template: { name: 'colorTemplate', foreach: $data }" tabindex="0"></div>
+    </div>
+    <div class="container center">
+      <input class="valueSlider" type="range" step="0.1" data-bind="value: rangeValue, attr: { min: rangeMin, max: rangeMax }, clickBubble: false,                                                                           event: { mousedown: handleRangeMouseDown.bind($parent), mouseup: handleRangeMouseUp.bind($parent) }" tabindex="0" />
+      <div class="valueTextBoxContainer" tabindex="0">
+        <input class="valueTextBox" type="text" maxlength="4" data-bind="value: textBoxValue, valueUpdate: 'keyup', clickBubble: false" />
+      </div>
+    </div>
+  </div>
+  <!-- /ko -->
+</div>
+
+</script>
+<link href="controls\common\seekBar\css/seekBar.css" rel="stylesheet">
+<script src="controls\common\seekBar\js/seekBar.js"></script>
+
+<script id="/controls/common/seekBar/seekBar.html" type="text/html">
+<div class="appmagic-seekbar-container-body" touch-action="none">
+  <div class="appmagic-seekbar-container">
+    <div class="appmagic-seekbar-track">
+      <div class="appmagic-seekbar-fill" data-bind="style: { width: seekBarFillWidth }"></div>
+    </div>
+    <div class="appmagic-seekbar-scroller-thumb" data-bind="style: { width: seekBarFillWidth }">
+      <img class="appmagic-seekbar-thumb" src="#" data-bind="attr: { src: seekBarThumbSrc }" />
+    </div>
+  </div>
+</div>
+
+</script>
+
+
+</head>
+<body role="application">
+    <div id="splashScreen">
+        <img src="images/app_splash.png" />
+    </div>
+    <div id="publishedCanvas"></div>
+    <div class="fullscreenHost"></div>
+    <div class="notificationHost" data-win-control="WinJS.UI.HtmlControl"
+            data-win-options="{ uri: '/controls/common/notification/notification.html' }"></div>
+    
+    <script type="text/javascript">
+        AppMagic.start();
+    </script>
+</body>
+</html>

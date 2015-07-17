@@ -1,0 +1,44 @@
+﻿html, body {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: black;
+    display: -ms-grid;
+    -ms-grid-columns: 1fr;
+    -ms-grid-rows: 1fr;
+}
+
+@media screen and (-ms-view-state: fullscreen-landscape) {
+}
+
+@media screen and (-ms-view-state: filled) {
+}
+
+@media screen and (-ms-view-state: snapped) {
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+}
+
+#publishedCanvas {
+    /* TASK: 73670: Add support for different form factors. */
+    width: 1366px;
+    height: 768px;
+    background-color: transparent;
+}
+
+#splashScreen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.fullscreenHost,
+.notificationHost {
+    -ms-grid-column: 1;
+    -ms-grid-row: 1;
+}

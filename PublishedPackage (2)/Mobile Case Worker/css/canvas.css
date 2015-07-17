@@ -1,0 +1,19 @@
+﻿.appmagic-borderfill-container {
+    height: 100%;
+    width: 100%;
+}
+
+.appmagic-hideoverflow {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/*
+    This class is used to hide an element that needs to be be rendered on the DOM - specifically for cases like gallery where setting display: none can have undesirable side effects
+*/
+.offScreen {
+    left: -10000px;
+    top: -10000px;
+}

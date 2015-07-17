@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="CaseMobileWebApi" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="3" osVersion="*" schemaVersion="2015-04.2.6">
+  <Role name="WebRole1">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="anschult" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBnQYJKoZIhvcNAQcDoIIBjjCCAYoCAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMME1dpbmRvd3MgQXp1cmUgVG9vbHMCEH3oreXN846eSTlTeTsJF0wwDQYJKoZIhvcNAQEBBQAEggEAakysDhdIPakAjhmcMEx9SIdDYu0cJJpKn6plCC+uCBjpcFuOGFrk/V09sFklfYGR2duem7G486e0ICzrLhiNhxmvgDiGUvzcOEa8HUBoExXggQFsnIoZPg1euCgGpyp/d+PzjKaaDk0EPzlB6uTCjNWr4d2Z4c+UqZkrYIih28UGeFPCxxgruFiJN6o1LQa9RTgFdzNCF20nx/+HAcIsuw8OUPDbUkomZd0M/3XRkuDsmI0bIXSuUyfp/m4uVgOHpaPIKFpP5ZofsBQR+9VIX9O6uWnX7n8rdab3P5Dn6agAduJmCV67umTaTuJPtoeETPUn6P1A7drrc4MzLfgmKTAzBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECPCU9Iw2Il0sgBAsT/4bSr5j1Bv32Zl4cpiU" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2018-08-18T23:59:59.0000000-06:00" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" value="true" />
+    </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="9886E8FE06A7089F8C4892AAB9D6333E6ED49FA9" thumbprintAlgorithm="sha1" />
+    </Certificates>
+  </Role>
+</ServiceConfiguration>

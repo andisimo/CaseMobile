@@ -1,0 +1,190 @@
+c:\users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\bin\Release\ServiceConfiguration.cscfg
+c:\users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\bin\Release\ServiceDefinition.csdef
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Areas\HelpPage\HelpPage.css
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Areas\HelpPage\Views\Help\Api.cshtml
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Areas\HelpPage\Views\Help\DisplayTemplates\HelpPageApiModel.cshtml
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Areas\HelpPage\Views\Help\DisplayTemplates\ImageSample.cshtml
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Areas\HelpPage\Views\Help\DisplayTemplates\InvalidSample.cshtml
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Areas\HelpPage\Views\Help\DisplayTemplates\Parameters.cshtml
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Areas\HelpPage\Views\Help\DisplayTemplates\Samples.cshtml
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Areas\HelpPage\Views\Help\DisplayTemplates\TextSample.cshtml
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Areas\HelpPage\Views\Help\Index.cshtml
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Areas\HelpPage\Views\Shared\_Layout.cshtml
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Areas\HelpPage\Views\Web.config
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Areas\HelpPage\Views\_ViewStart.cshtml
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\Antlr3.Runtime.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\de\System.Spatial.resources.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\en\Microsoft.IdentityModel.resources.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\es\System.Spatial.resources.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\fr\System.Spatial.resources.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\it\System.Spatial.resources.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\ja\System.Spatial.resources.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\ko\System.Spatial.resources.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\Microsoft.Data.Edm.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\Microsoft.Data.OData.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\Microsoft.IdentityModel.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\Microsoft.WindowsAzure.Diagnostics.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\Microsoft.WindowsAzure.Diagnostics.StorageUtility.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\Microsoft.WindowsAzure.Storage.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\Microsoft.Xrm.Client.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\Microsoft.Xrm.Sdk.Deployment.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\Microsoft.Xrm.Sdk.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\Newtonsoft.Json.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\ru\System.Spatial.resources.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\System.Net.Http.Formatting.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\System.Spatial.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\System.Web.Helpers.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\System.Web.Http.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\System.Web.Http.WebHost.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\System.Web.Mvc.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\System.Web.Optimization.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\System.Web.Razor.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\System.Web.WebPages.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\System.Web.WebPages.Razor.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\WebGrease.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\WebRole1.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Content\bootstrap.css
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Content\bootstrap.min.css
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Content\Site.css
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\favicon.ico
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\fonts\glyphicons-halflings-regular.eot
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\fonts\glyphicons-halflings-regular.svg
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\fonts\glyphicons-halflings-regular.ttf
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\fonts\glyphicons-halflings-regular.woff
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Global.asax
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\packages.config
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Scripts\bootstrap.js
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Scripts\bootstrap.min.js
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Scripts\jquery-1.10.2.js
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Scripts\jquery-1.10.2.min.js
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Scripts\jquery-1.10.2.min.map
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Scripts\modernizr-2.6.2.js
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Scripts\respond.js
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Scripts\respond.min.js
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Scripts\_references.js
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Views\Home\Index.cshtml
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Views\Shared\Error.cshtml
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Views\Shared\_Layout.cshtml
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Views\Web.config
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Views\_ViewStart.cshtml
+C:\Users\anschult\documents\visual studio 2013\Projects\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Web.config
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\bin\Release\ServiceConfiguration.cscfg
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\bin\Release\ServiceDefinition.csdef
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\Antlr3.Runtime.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\de\System.Spatial.resources.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\en\Microsoft.IdentityModel.resources.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\es\System.Spatial.resources.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\fr\System.Spatial.resources.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\it\System.Spatial.resources.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\ja\System.Spatial.resources.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\ko\System.Spatial.resources.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\Microsoft.Data.Edm.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\Microsoft.Data.OData.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\Microsoft.IdentityModel.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\Microsoft.WindowsAzure.Diagnostics.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\Microsoft.WindowsAzure.Storage.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\Microsoft.Xrm.Client.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\Microsoft.Xrm.Sdk.Deployment.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\Microsoft.Xrm.Sdk.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\MonAgentListener.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\Newtonsoft.Json.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\ru\System.Spatial.resources.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\System.Net.Http.Formatting.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\System.Spatial.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\System.Web.Helpers.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\System.Web.Http.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\System.Web.Http.WebHost.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\System.Web.Mvc.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\System.Web.Optimization.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\System.Web.Razor.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\System.Web.WebPages.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\System.Web.WebPages.Razor.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\WebGrease.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\WebRole1.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Areas\HelpPage\HelpPage.css
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Areas\HelpPage\Views\Help\Api.cshtml
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Areas\HelpPage\Views\Help\DisplayTemplates\HelpPageApiModel.cshtml
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Areas\HelpPage\Views\Help\DisplayTemplates\ImageSample.cshtml
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Areas\HelpPage\Views\Help\DisplayTemplates\InvalidSample.cshtml
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Areas\HelpPage\Views\Help\DisplayTemplates\Parameters.cshtml
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Areas\HelpPage\Views\Help\DisplayTemplates\Samples.cshtml
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Areas\HelpPage\Views\Help\DisplayTemplates\TextSample.cshtml
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Areas\HelpPage\Views\Help\Index.cshtml
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Areas\HelpPage\Views\Shared\_Layout.cshtml
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Areas\HelpPage\Views\Web.config
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Areas\HelpPage\Views\_ViewStart.cshtml
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Content\bootstrap.css
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Content\bootstrap.min.css
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Content\Site.css
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\favicon.ico
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\fonts\glyphicons-halflings-regular.eot
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\fonts\glyphicons-halflings-regular.svg
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\fonts\glyphicons-halflings-regular.ttf
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\fonts\glyphicons-halflings-regular.woff
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Global.asax
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\packages.config
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Scripts\bootstrap.js
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Scripts\bootstrap.min.js
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Scripts\jquery-1.10.2.js
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Scripts\jquery-1.10.2.min.js
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Scripts\jquery-1.10.2.min.map
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Scripts\modernizr-2.6.2.js
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Scripts\respond.js
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Scripts\respond.min.js
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Scripts\_references.js
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Views\Home\Index.cshtml
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Views\Shared\Error.cshtml
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Views\Shared\_Layout.cshtml
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Views\Web.config
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Views\_ViewStart.cshtml
+C:\Users\anschult\Documents\Git\CaseMobileWebApi\CaseMobileWebApi\obj\Release\WebRole1\Web.config

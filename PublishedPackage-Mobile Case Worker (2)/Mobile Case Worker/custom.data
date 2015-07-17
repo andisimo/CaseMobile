@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SienaSettings xmlns="Microsoft.Siena">
+  <Application p2:Name="Mobile Case Worker" xmlns:p2="Microsoft.Siena" />
+  <LogoImage p2:Src="images\default_icon.png" xmlns:p2="Microsoft.Siena" />
+  <ImageAttributes p2:BackgroundColor="RGBA(0, 176, 240, 1)" p2:OffsetXSquare="50" p2:OffsetYSquare="50" p2:OffsetXWide="210" p2:OffsetYWide="50" p2:MaxSize="200" xmlns:p2="Microsoft.Siena" />
+  <Telemetry p2:DocumentID="5818ac6e-1dfb-44d4-9404-f5329b8690b1" p2:DocumentVersionID="8ca3348a-bf3e-422c-9a34-952bd55ba3d0" p2:ContainsO365Connector="false" xmlns:p2="Microsoft.Siena" />
+  <Version p2:OriginatingVersion="1.105" xmlns:p2="Microsoft.Siena" />
+</SienaSettings>
