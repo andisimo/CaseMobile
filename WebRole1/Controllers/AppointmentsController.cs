@@ -154,7 +154,7 @@ namespace WebRole1.Controllers
         // GET api/appointment/[Guid.ToString()]
         public HttpResponseMessage Get()
         {
-            CrmConnection connection = CrmConnection.Parse("Url=https://childsafety.crm.dynamics.com; Username=; Password=");
+            CrmConnection connection = CrmConnection.Parse(Strings.urlCreds);
             var ctx = new CrmServiceContext(new OrganizationService(connection));
 
             WhoAmIRequest who = new WhoAmIRequest();
@@ -222,7 +222,7 @@ namespace WebRole1.Controllers
 
         public HttpResponseMessage Post(Guid appointmentId, string operationName, string operationTime)
         {
-            CrmConnection connection = CrmConnection.Parse("Url=https://casemobile.crm.dynamics.com; Username=; Password=;");
+            CrmConnection connection = CrmConnection.Parse(Strings.urlCreds);
             var ctx = new CrmServiceContext(new OrganizationService(connection));
 
             var appointment = new Appointment();

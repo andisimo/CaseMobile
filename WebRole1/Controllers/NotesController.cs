@@ -69,7 +69,7 @@ namespace WebRole1.Controllers
         // GET api/notes
         public HttpResponseMessage Get(string RelatedId)
         {
-            CrmConnection connection = CrmConnection.Parse("Url=https://childsafety.crm.dynamics.com; Username=; Password=");
+            CrmConnection connection = CrmConnection.Parse(Strings.urlCreds);
             var ctx = new CrmServiceContext(new OrganizationService(connection));
 
             var query = from a in ctx.AnnotationSet
@@ -97,7 +97,7 @@ namespace WebRole1.Controllers
         // POST api/notes?caseId=
         public HttpResponseMessage Post(Guid caseId, string noteTitle, string noteText)
         {
-            CrmConnection connection = CrmConnection.Parse("Url=https://casemobile.crm.dynamics.com; Username=; Password=;");
+            CrmConnection connection = CrmConnection.Parse(Strings.urlCreds);
             var ctx = new CrmServiceContext(new OrganizationService(connection));
 
             var note = new Annotation();

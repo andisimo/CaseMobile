@@ -50,7 +50,7 @@ namespace WebRole1.Controllers
         // GET api/tasks
         public HttpResponseMessage Get(string RelatedId)
         {
-            CrmConnection connection = CrmConnection.Parse("Url=https://childsafety.crm.dynamics.com; Username=; Password=");
+            CrmConnection connection = CrmConnection.Parse(Strings.urlCreds);
             var ctx = new CrmServiceContext(new OrganizationService(connection));
 
             var query = from a in ctx.TaskSet
@@ -96,7 +96,7 @@ namespace WebRole1.Controllers
 
         public HttpResponseMessage Post(Guid taskId)
         {
-            CrmConnection connection = CrmConnection.Parse("Url=https://casemobile.crm.dynamics.com; Username=; Password=;");
+            CrmConnection connection = CrmConnection.Parse(Strings.urlCreds);
             var ctx = new CrmServiceContext(new OrganizationService(connection));
 
             var taskReference = new EntityReference("task", taskId);

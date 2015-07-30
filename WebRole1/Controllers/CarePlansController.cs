@@ -40,7 +40,7 @@ namespace WebRole1.Controllers
         // GET api/careplans
         public HttpResponseMessage Get(Guid relatedId)
         {
-            CrmConnection connection = CrmConnection.Parse("Url=https://childsafety.crm.dynamics.com; Username=; Password=");
+            CrmConnection connection = CrmConnection.Parse(Strings.urlCreds);
             var ctx = new CrmServiceContext(new OrganizationService(connection));
 
             var query = from c in ctx.new_careplanSet

@@ -48,7 +48,7 @@ namespace WebRole1.Controllers
         // GET api/pictures
         public HttpResponseMessage Get(string RelatedId)
         {
-            CrmConnection connection = CrmConnection.Parse("Url=https://childsafety.crm.dynamics.com; Username=; Password=");
+            CrmConnection connection = CrmConnection.Parse(Strings.urlCreds);
             var ctx = new CrmServiceContext(new OrganizationService(connection));
 
             var query = from p in ctx.new_pictureSet

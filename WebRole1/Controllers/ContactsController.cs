@@ -98,7 +98,7 @@ namespace WebRole1.Controllers
         // GET api/contacts
         public HttpResponseMessage Get()
         {
-            CrmConnection connection = CrmConnection.Parse("Url=https://childsafety.crm.dynamics.com; Username=; Password=");
+            CrmConnection connection = CrmConnection.Parse(Strings.urlCreds);
             var ctx = new CrmServiceContext(new OrganizationService(connection));
 
             var query = from c in ctx.ContactSet
@@ -148,7 +148,7 @@ namespace WebRole1.Controllers
         //Household Contacts for Case
         public HttpResponseMessage Get(Guid caseId)
         {
-            CrmConnection connection = CrmConnection.Parse("Url=https://casemobile.crm.dynamics.com; Username=; Password=;");
+            CrmConnection connection = CrmConnection.Parse(Strings.urlCreds);
             var ctx = new CrmServiceContext(new OrganizationService(connection));
 
             var queryResult = from n in ctx.new_incident_contactSet

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="CaseMobileWebApi" generation="1" functional="0" release="0" Id="1ee0d141-48bc-495a-9117-90f5315d5935" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
+<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="CaseMobileWebApi" generation="1" functional="0" release="0" Id="ce0c3fcf-6421-4ec0-9909-c80dcffe8807" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
   <groups>
     <group name="CaseMobileWebApiGroup" generation="1" functional="0" release="0">
       <componentports>
@@ -178,19 +178,19 @@
     </group>
   </groups>
   <implements>
-    <implementation Id="312e05e7-c8de-438b-8298-f9819573ad3b" ref="Microsoft.RedDog.Contract\ServiceContract\CaseMobileWebApiContract@ServiceDefinition">
+    <implementation Id="a6a62a4d-e52e-475b-ba08-eeaaa44b8da3" ref="Microsoft.RedDog.Contract\ServiceContract\CaseMobileWebApiContract@ServiceDefinition">
       <interfacereferences>
-        <interfaceReference Id="2f51024a-18d1-4b61-a422-9e03757a3d82" ref="Microsoft.RedDog.Contract\Interface\WebRole1:Endpoint1@ServiceDefinition">
+        <interfaceReference Id="da06e9a7-a267-4a63-87a6-50bd6967307a" ref="Microsoft.RedDog.Contract\Interface\WebRole1:Endpoint1@ServiceDefinition">
           <inPort>
             <inPortMoniker name="/CaseMobileWebApi/CaseMobileWebApiGroup/WebRole1:Endpoint1" />
           </inPort>
         </interfaceReference>
-        <interfaceReference Id="a85149a0-3c27-441e-9976-5cfd97f18776" ref="Microsoft.RedDog.Contract\Interface\WebRole1:Microsoft.WindowsAzure.Plugins.RemoteForwarder.RdpInput@ServiceDefinition">
+        <interfaceReference Id="b4e143d3-6bc1-40d1-8cb0-ba88749a571e" ref="Microsoft.RedDog.Contract\Interface\WebRole1:Microsoft.WindowsAzure.Plugins.RemoteForwarder.RdpInput@ServiceDefinition">
           <inPort>
             <inPortMoniker name="/CaseMobileWebApi/CaseMobileWebApiGroup/WebRole1:Microsoft.WindowsAzure.Plugins.RemoteForwarder.RdpInput" />
           </inPort>
         </interfaceReference>
-        <interfaceReference Id="bf5cbdc1-9afd-4689-aa8a-559033bbf3f8" ref="Microsoft.RedDog.Contract\Interface\WebRole1:Microsoft.WindowsAzure.Plugins.WebDeploy.InputEndpoint@ServiceDefinition">
+        <interfaceReference Id="540a9f00-be1c-4383-9467-e978b9aa80ad" ref="Microsoft.RedDog.Contract\Interface\WebRole1:Microsoft.WindowsAzure.Plugins.WebDeploy.InputEndpoint@ServiceDefinition">
           <inPort>
             <inPortMoniker name="/CaseMobileWebApi/CaseMobileWebApiGroup/WebRole1:Microsoft.WindowsAzure.Plugins.WebDeploy.InputEndpoint" />
           </inPort>

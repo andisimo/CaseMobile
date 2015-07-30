@@ -194,6 +194,7 @@
     </Compile>
     <Compile Include="OptionSets.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Strings.cs" />
     <Compile Include="WebRole.cs" />
   </ItemGroup>
   <ItemGroup>

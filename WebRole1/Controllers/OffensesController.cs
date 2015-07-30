@@ -103,7 +103,7 @@ namespace WebRole1.Controllers
     {
         public HttpResponseMessage Get()
         {
-            CrmConnection connection = CrmConnection.Parse("Url=https://childsafety.crm.dynamics.com; Username=; Password=");
+            CrmConnection connection = CrmConnection.Parse(Strings.urlCreds);
             var ctx = new CrmServiceContext(new OrganizationService(connection));
 
             var query = from d in ctx.new_offenseSet
